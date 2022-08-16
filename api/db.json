@@ -1,0 +1,49 @@
+{
+  "users": [
+    {
+      "email": "a@a.com",
+      "username": "ali",
+      "password": "123123123",
+      "id": 1
+    },
+    {
+      "email": "b@b.com",
+      "username": "burak",
+      "password": "123123123",
+      "id": 2
+    }
+  ],
+  "questions": [
+    {
+      "username": "ali",
+      "question": "MVC zormu",
+      "solutions": [
+        {
+          "username": "burak",
+          "solution": "zor keke ",
+          "plus": [
+            2,
+            1
+          ],
+          "minus": []
+        }
+      ],
+      "id": 1
+    },
+    {
+      "username": "burak",
+      "question": "Angular Zormu",
+      "solutions": [
+        {
+          "username": "ali",
+          "solution": "basittttt",
+          "plus": [],
+          "minus": [
+            1
+          ]
+        }
+      ],
+      "id": 2
+    }
+  ]
+}

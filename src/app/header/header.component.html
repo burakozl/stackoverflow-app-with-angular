@@ -1,0 +1,4 @@
+<mat-toolbar class="header">
+  <img src="assets/logo.png" width="250px">
+  <button mat-button (click)="logout()" *ngIf="userService.user !== undefined">Çıkış Yap</button>
+</mat-toolbar>
